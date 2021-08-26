@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
-<div class="d-block" >
+<div class="d-block mb-2">
+    <h1>Likes</h1>
     {% for event in events %}
         <div class="d-flex mt-5">
             {% if event.image %}
@@ -14,9 +15,9 @@
             <form action="{% url 'liked' event.pk %}" method="POST">
                 {% csrf_token %}
                 {% if event.is_liked %}
-                    <button type="submit" class="mb-5 like_btn mt-5" name="event_id" value="{{ event.id }}" ><span id="icon" class="material-icons">favorite_border</span></button>
-                {% else %}
                     <button type="submit" class="mb-5 like_btn mt-5" name="event_id" value="{{ event.id }}" ><span id="icon" class="material-icons">favorite</span></button>
+                {% else %}
+                    <button type="submit" class="mb-5 like_btn mt-5" name="event_id" value="{{ event.id }}" ><span id="icon" class="material-icons">favorite_border</span></button>
                 {% endif %}
             </form>
         </div>

@@ -55,5 +55,5 @@ def like_page(request):
         'events': events,
     }
 
-    return render(request, 'home.html', context)
+    return render(request, 'like.html', context)
 
