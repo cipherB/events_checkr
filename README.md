@@ -7,4 +7,4 @@ https://github.com/cipherB/events_checkr/blob/main/events/read_me_images/Screens
 https://github.com/cipherB/events_checkr/blob/main/events/read_me_images/Screenshot%20(106).png
 
 " liked events page .. scroll right of image to view icons"
-https://github.com/cipherB/events_checkr/blob/main/events/read_me_images/Screenshot%20(107).png
+https://github.com/cipherB/events_checkr/blob/main/events/read_me_images/Screenshot%20(108).png
